@@ -1,4 +1,4 @@
-# Startup Idea Generator
+# Startup Generator
 
 Esta aplicação gera ideias inovadoras de startups com base nos inputs dos usuários utilizando a API do ChatGPT.
 

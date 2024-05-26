@@ -6,8 +6,8 @@ Esta aplicação gera ideias inovadoras de startups com base nos inputs dos usu�
 
 1. Clone o repositório:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
-    cd startup_ideas_generator
+    git clone [https://github.com/Estagiariozioxx/projeto-OpenAI.git]
+    cd projeto-OpenAI
     ```
 
 2. Crie um ambiente virtual e instale as dependências:

@@ -33,7 +33,4 @@ Esta aplicação gera ideias inovadoras de startups com base nos inputs dos usu�
 2. Insira um input no campo e clique em "Generate Idea".
 3. Veja a ideia gerada na seção abaixo do formulário.
 
-## Video Explicativo
-
-[Link para o vídeo explicativo](#)
 

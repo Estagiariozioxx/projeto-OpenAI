@@ -30,7 +30,7 @@ Esta aplicação gera ideias inovadoras de startups com base nos inputs dos usu�
 ## Uso
 
 1. Abra um navegador e acesse `http://127.0.0.1:5000/`.
-2. Insira um input no campo e clique em "Generate Idea".
+2. Insira um input no campo e clique em "Gerar".
 3. Veja a ideia gerada na seção abaixo do formulário.
 
 

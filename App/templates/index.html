@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Startup Idea Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ideias de Startup</h1>
+        <form id="idea-form">
+            <label for="user_input">Input:</label>
+            <input type="text" id="user_input" name="user_input" required>
+            <button type="submit">Gerar</button>
+        </form>
+        <div id="idea-output"></div>
+    </div>
+
+    <script>
+        document.getElementById('idea-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const userInput = document.getElementById('user_input').value;
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `user_input=${userInput}`
+            });
+            const data = await response.json();
+            document.getElementById('idea-output').innerText = data.idea;
+            console.log(data)
+        });
+    </script>
+</body>
+</html>
